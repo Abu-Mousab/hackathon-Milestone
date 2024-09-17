@@ -1,0 +1,84 @@
+s
+Copy code
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #efe8e8;
+    margin: 0;
+    padding: 20px; /* Reduced padding for better spacing */
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(245, 22, 22);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Softened shadow */
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #fe0808;
+    color: rgb(16, 10, 10);
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    border-right: 5px solid #e63946; /* Highlighted partition line */
+}
+
+.profile-picture {
+    width: 220px;
+    height: 220px;
+    margin-top: 20%;
+    border-radius: 50%; /* Circular profile picture */
+    border: 5px solid #e63946;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e63946;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: disc; /* Corrected the list style */
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 80%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #e50d1b;
+}
